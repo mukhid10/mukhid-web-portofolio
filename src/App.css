@@ -1,38 +1,284 @@
-.App {
+/* Navigation bar */
+.navbar-collapse{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Intro */
+.bg-intro{
+  background-image: url('./asset/bg-intro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-nama{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.media a img{
+  height: 35px;
+  width: 35px;
+  margin: 5px;
+}
+
+.intro-nama .cv {
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-nama .cv :hover {
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: goldenrod;
+}
+
+.intro-nama .cv a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.intro-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-img img{
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+/* About */
+.bg-about{
+  background-image: url('./asset/putih.jpg');
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-about img{
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+}
+
+.about p{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Education */
+.education{
+  width: 100%;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title-pend{
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
+  align-items: flex-start;
+}
+
+.sertifikat{
+  width: 100%;
+}
+
+.div-img{
+  width: 100%;
+  height: 35vh;
+  border-radius: 10px;
+}
+.sertifikat img{
+  width: 100%;
+  height: 35vh;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.bg-skill{
+  background: url('./asset/putih.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-skill{
+  background: rgb(206, 202, 202);
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
   align-items: center;
+}
+
+.card-skill img{
+  height: 100%;
+}
+
+/* portofolio */
+.bg-porto{
+  background-image: url('./asset/kayu.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-porto {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: rgb(170, 167, 167);
+}
+.card-porto img{
+  width: 100%;
+  height: 35vh;
+  border-radius: 6px;
+}
+
+.card-porto div{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+  border-radius: 6px;
+}
+
+.card-porto div button{
+  height: 35px;
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  background: rgb(170, 167, 167);
+}
+
+.card-porto div button a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+/* Contact */
+.card-contact{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card-contact img{
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgb(99, 97, 97);
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.form-contact{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.form-contact input{
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.form-contact textarea{
+  width: 100%;
+  height: 100px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.form-contact button{
+  width: 40%;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width:480px) {
+  .navbar-collapse{
+    display: flex;
+    justify-content: flex-start;
   }
-  to {
-    transform: rotate(360deg);
+
+  /* intro */
+  .intro-img{
+    order: 1;
+  }
+
+  .intro-nama{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column; 
+    margin-bottom: 70px;
+    order: 2;
+  }
+
+  .intro-img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .intro-img img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+
+  /* About */
+
+  .img-about img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+  }
+
+  .about p{
+    text-align:justify;
+  }
+
+  .title-pend{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .backend-skill{
+    margin-top: 25px;
   }
 }
