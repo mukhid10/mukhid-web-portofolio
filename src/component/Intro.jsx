@@ -10,15 +10,7 @@ function Intro() {
         <div className="row" style={{ width: "100%", height: "92vh" }}>
           <div className="col-md-6 intro-nama">
             <p style={{ fontSize: "25px", margin: "0" }}>Hi, nama saya</p>
-            <h1
-              style={{
-                fontFamily: "Roboto",
-                fontWeight: "bolder",
-                margin: "0",
-              }}
-            >
-              Mukhammad Abdul Mukhid
-            </h1>
+            <h1>Mukhammad Abdul Mukhid</h1>
             <p
               className="m-0"
               style={{

@@ -24,6 +24,12 @@
   margin: 5px;
 }
 
+.intro-nama h1{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin: 0;
+}
+
 .intro-nama .cv {
   height: 35px;
   width: 200px;
@@ -245,6 +251,11 @@
     flex-direction: column; 
     margin-bottom: 70px;
     order: 2;
+  }
+
+  .intro-nama h1{
+    font-size: 1.4rem;
+    font-weight: bolder;
   }
 
   .intro-img{
