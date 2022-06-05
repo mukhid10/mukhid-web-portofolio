@@ -169,9 +169,9 @@
   border-radius: 6px;
 }
 
-.card-porto div button{
+.card-porto div a button{
   height: 35px;
-  width: 70%;
+  width: 100%;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -179,7 +179,8 @@
   background: rgb(170, 167, 167);
 }
 
-.card-porto div button a{
+.card-porto div a{
+  width: 70%;
   text-decoration: none;
   color: black;
   font-weight: bolder;

@@ -43,9 +43,9 @@ function PortofolioGalery() {
                   melodico adalah website streaming music yang menampilkan
                   berbagia genre music.
                 </p>
-                <button>
-                  <a href="">Kunjungi</a>
-                </button>
+                <a href="https://melodico.netlify.app/">
+                  <button>Kunjungi</button>
+                </a>
               </div>
             </div>
           </div>
@@ -57,9 +57,9 @@ function PortofolioGalery() {
                   Haku Library adalah website perpustakaan online yang
                   menyediakan berbagai buku.
                 </p>
-                <button>
-                  <a href="">Kunjungi</a>
-                </button>
+                <a href="https://haku-library-site.netlify.app/">
+                  <button>Kunjungi</button>
+                </a>
               </div>
             </div>
           </div>
@@ -71,9 +71,9 @@ function PortofolioGalery() {
                   Free Anime adalah website yang meyediakan movie anime terbaru
                   scara gratis.
                 </p>
-                <button>
-                  <a href="https://anime-gratisss.netlify.app/">Kunjungi</a>
-                </button>
+                <a href="https://anime-gratisss.netlify.app/">
+                  <button>Kunjungi</button>
+                </a>
               </div>
             </div>
           </div>
